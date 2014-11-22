@@ -1,4 +1,5 @@
 
+
 #Create Folder called "wearables"
 if(!file.exists("./wearables")){dir.create("./wearables")}
 
@@ -79,7 +80,7 @@ names(totaldata1)<-gsub("Acc", "Accelerometer", names(totaldata1))
 names(totaldata1)<-gsub("Gyro", "Gyroscope", names(totaldata1))
 names(totaldata1)<-gsub("Mag", "Magnitude", names(totaldata1))
 names(totaldata1)<-gsub("BodyBody", "Body", names(totaldata1))
-
+names(totaldata1)<-gsub("()","", names(totaldata1))
 
 # creates a second, independent tidy data set with the average of each variable for each activity and each subject
 
