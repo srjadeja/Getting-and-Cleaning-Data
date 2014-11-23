@@ -19,16 +19,12 @@ a tidy data set
 a script for performing the required analysis (run_analysis.R)
 a code book that describes the the data and how it was cleaned up
 a README.md that explains how the project was carried out
-Data source
-
-
 
 Data Analysis
 
 The script run_analysis.R meets the  project requirements:
-
-create one data set from the training and test sets
-extract mean and standard deviation records for each measurement
-assign descriptive activity names
-label the data set with descriptive variable names.
-create a second, independent tidy data set with the average of each variable for each activity and each subject
+1.Merges the training and the test sets to create one data set.
+2.Extracts only the measurements on the mean and standard deviation for each measurement. 
+3.Uses descriptive activity names to name the activities in the data set
+4.Appropriately labels the data set with descriptive variable names. 
+5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
