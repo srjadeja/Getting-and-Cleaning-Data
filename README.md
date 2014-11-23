@@ -21,13 +21,7 @@ a code book that describes the the data and how it was cleaned up
 a README.md that explains how the project was carried out
 Data source
 
-"One of the most exciting areas in all of data science right now is wearable computing - see for example this article . Companies like Fitbit, Nike, and Jawbone Up are racing to develop the most advanced algorithms to attract new users. The data linked to from the course website represent data collected from the accelerometers from the Samsung Galaxy S smartphone."
 
-Data description
-
-Here are the data for the project:
-
-Dataset
 
 Data Analysis
 
